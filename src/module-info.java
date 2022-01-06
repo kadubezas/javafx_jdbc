@@ -4,4 +4,6 @@ module javafx_jdbc {
 	
 	opens application to javafx.graphics, javafx.fxml;
 	opens gui;
+	opens model.entities;
+	opens model.services;
 }
