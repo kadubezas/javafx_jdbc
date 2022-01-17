@@ -87,7 +87,7 @@ public class SellerListController implements Initializable, DataChangeListener {
 		tableColumnName.setCellValueFactory(new PropertyValueFactory<>("name"));
 		tableColumnEmail.setCellValueFactory(new PropertyValueFactory<>("Email"));
 		tableColumnBirthDate.setCellValueFactory(new PropertyValueFactory<>("BirthDate"));
-		Utils.formatTableColumnDate(tableColumnBirthDate, "dd/MM/aaaa");
+		Utils.formatTableColumnDate(tableColumnBirthDate, "dd/MM/yyyy");
 		tableColumnBaseSalary.setCellValueFactory(new PropertyValueFactory<>("BaseSalary"));
 		Utils.formatTableColumnDouble(tableColumnBaseSalary, 2);
 
